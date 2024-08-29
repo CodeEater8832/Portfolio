@@ -1,0 +1,85 @@
+@font-face {
+    font-family: LoveloBlack;
+    src: url(assets/fonts/Lovelo\ Black.otf);
+  }
+body {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    position: fixed;
+    inset: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    
+}
+.loveloText {
+    font-family:LoveloBlack ;
+    text-align: center;
+    color: white;
+}
+.loveloTextSub {
+    font-family:LoveloBlack ;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.loveloTextSubBlack {
+        font-family:LoveloBlack ;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+}
+.BIGBOYHEADER {
+    font-family:LoveloBlack ;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.contentBox {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.grid-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.head1 {
+    background-color: chocolate;
+    padding: 10px;
+    width:300px;
+}
+.peeper {
+    width: 100%;
+}
+.descriptorContent {
+    background-color: white;
+
+    position: relative;
+
+    top: -400px;
+
+    padding: 50px;
+}
+.sideimgr {
+    width: 600px;
+    border-radius: 10px;
+    margin: 5px;
+}
