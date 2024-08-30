@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .head {
     position: fixed;
@@ -82,4 +83,19 @@ body {
     width: 30%;
     border-radius: 10px;
     margin: 5px;
+    
+}
+.menuButton {
+    width: 19%;
+    font-family: LoveloBlack;
+    height: 10vh;
+    background-color: white;
+    border: none;
+}
+.menu {
+    position:fixed;
+    bottom: -1px;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
 }
